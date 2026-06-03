@@ -52,7 +52,7 @@ O ecossistema visual foi dividido em 3 visões estratégicas para atender tanto 
 ## Fluxo de trabalho: 
 Roadmap utilizado para guiar as decisões e passo a passo do projeto
 
-<img width="1703" height="810" alt="Captura de tela 2026-06-03 160245" src="https://github.com/user-attachments/assets/5c01c818-b33e-4339-bb5c-4dca578eadd1" />
+<img width="1906" height="826" alt="Captura de tela 2026-06-03 160638" src="https://github.com/user-attachments/assets/4be424e0-acd2-43ed-a23c-cf7ed9de5930" />
 
 ---
 
