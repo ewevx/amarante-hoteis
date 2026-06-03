@@ -59,5 +59,7 @@ O ecossistema visual foi dividido em 3 visões estratégicas para atender tanto 
 
 ## Como Executar este Projeto
 1.**Camada de Dados:** Os scripts de criação de tabelas e a query lógica para o Tableau estão em /sql.
+
 2.**Camada de Inteligência:** O fluxo experimental está documentado em /notebooks. Para produção, os scripts executáveis estruturados de forma desacoplada estão localizados em /src.
+
 3.**Camada de Negócio:** Baixe os arquivos *.twbx* na pasta *tableau* e abra-o utilizando o Tableau Desktop ou o Tableau Reader gratuito para interagir com os filtros e analisar os gatilhos econômicos.
