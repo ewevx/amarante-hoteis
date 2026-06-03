@@ -35,21 +35,18 @@ O ecossistema visual foi dividido em 3 visões estratégicas para atender tanto 
 * **Booking Curve Inteligente:** Gráfico de linhas sobrepostas comparando o histórico real de quartos ocupados com o comportamento tracejado da previsão gerada pela Inteligência Artificial.
 
 <img width="1366" height="766" alt="Captura de tela 2026-06-03 151920" src="https://github.com/user-attachments/assets/d03c13eb-f5c8-4b0f-bcf6-f8c259759069" />
-> **[TERMÔMETRO E CURVA]**
 
 ### Visão 2: Matriz de Elasticidade e Otimização de Tarifa (Foco Operacional)
 * **Gatilhos Automáticos de Preço:** Tabela de decisão automatizada baseada no volume de demanda futura mapeada pela rede neural, exibindo alertas de ação como: *“Demanda Aquecida: Sugestão de aumento de +12% na tarifa balcão”* ou *“Baixa Procura: Avaliar Ação Promocional (-10%)”*.
 * **Elasticidade-Preço:** Gráfico de dispersão cruzando a Diária Média Praticada (ADR) com a demanda futura, permitindo identificar graficamente o teto de preço antes da perda de tração de reservas.
 
 <img width="1363" height="765" alt="Captura de tela 2026-06-03 152044" src="https://github.com/user-attachments/assets/38c1b78e-e61b-443d-b6b2-2b8a60fa5239" />
-> **[MATRIZ DE GATILHOS]**
 
 ### Visão 3: Monitor de Sazonalidade e Fatores Externos (Foco Tático)
 * **IA vs Google Trends:** Gráfico de eixo duplo que correlaciona o volume de interesse do público na web com a taxa de ocupação real, validando o impacto do marketing digital na conversão de vendas.
 * **Matriz de Calor Temporal:** Cruzamento de meses e dias da semana para identificar com exatidão os gargalos históricos e os picos sazonais de ocupação máxima.
 
 <img width="1363" height="756" alt="Captura de tela 2026-06-03 152121" src="https://github.com/user-attachments/assets/ec2d53f6-cb39-4c02-a2fd-ed5198f4cbb0" />
-> **[MAPA DE CALOR]**
 
 ---
 
