@@ -18,7 +18,7 @@ Substituir o modelo tradicional de precificação reativa por um **Pipeline de D
 
 ## Arquitetura e Engenharia de Dados
 
-O projeto foi estruturado sob os pilares da programação orientada a objetos (POO) e inversão de dependência, garantindo manutenibilidade e escalabilidade para produção:
+O projeto foi estruturado sob os pilares da programação orientada a objetos (POO) e inversão de dependência, garantindo manutenciabilidade e escalabilidade para produção:
 
 1. **Camada de Modelagem (Google Colab / Python / PyTorch):** Desenvolvimento de uma rede neural **LSTM Bidirecional** que processa sequências temporais de 90 dias de contexto. O modelo assimila variáveis complexas como *Lag Features* hoteleiras (7, 14, 30 e 45 dias), variáveis cíclicas temporais e feriados.
 2. **Data Warehouse (Google BigQuery / GoogleSQL):** Centralização e governança dos dados. Os resultados gerados pelo modelo no Python são injetados diretamente em tabelas dedicadas na camada *Gold* do Data Warehouse.
