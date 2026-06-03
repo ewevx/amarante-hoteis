@@ -1,7 +1,7 @@
 from src.tracker import VertexAIExperimentTracker
 
 # Instanciando o componente de Governança da Nuvem
-tracker = VertexAIExperimentTracker(project_id='amarante-hoteis')
+tracker = VertexAIExperimentTracker(project_id='seu-projeto-gcp')
 
 # Coletando os dados exatos do nosso "processo científico"
 hiperparametros_utilizados = {
