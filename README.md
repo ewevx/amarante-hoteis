@@ -48,30 +48,6 @@ O ecossistema visual foi dividido em 3 visões estratégicas para atender tanto 
 
 <img width="1363" height="756" alt="Captura de tela 2026-06-03 152121" src="https://github.com/user-attachments/assets/ec2d53f6-cb39-4c02-a2fd-ed5198f4cbb0" />
 
----
-
-## Estrutura do Repositório
-amarante-hotel-predictive-analytics
-notebooks
- Pipeline_de_treinamento.ipynb     # Código higienizado do modelo PyTorch (LSTM)
-sql
- modelagem_tabelas.sql             # Estrutura DDL das tabelas no BigQuery
- consulta_unificada.sql            # Query UNION ALL otimizada para o BI
-src                                # Módulos Python de Produção (POO)
- interfaces.py                     # Abstração das classes e contratos do pipeline
- data_loader.py                    # Ingestão de dados via Google Cloud API
- transformer.py                    # Feature Engineering e normalização (MinMaxScaler)
- model.py                          # Arquitetura da rede neural LSTM
- trainer.py                        # Loop de treinamento e fine-tuning
- predictor.py                      # Lógica de predição autoregressiva de 30 dias
- exporter.py                       # Exportador em lote para o Data Warehouse
-tableau                            # Pasta de Trabalho do Tableau com dados extraídos
- Termômetro vs curva.twbx           
- Visão de elasticidade.twbx         
- Sazonalidade.twbx
-.gitignore                         # Proteção de dados      
-README.md                          # Documentação do projeto
-
  ---
 
  ## Notas de Implementação e Portabilidade
