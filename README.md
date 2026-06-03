@@ -48,7 +48,13 @@ O ecossistema visual foi dividido em 3 visões estratégicas para atender tanto 
 
 <img width="1363" height="756" alt="Captura de tela 2026-06-03 152121" src="https://github.com/user-attachments/assets/ec2d53f6-cb39-4c02-a2fd-ed5198f4cbb0" />
 
- ---
+---
+## Fluxo de trabalho: 
+Roadmap utilizado para guiar as decisões e passo a passo do projeto
+
+<img width="1703" height="810" alt="Captura de tela 2026-06-03 160245" src="https://github.com/user-attachments/assets/5c01c818-b33e-4339-bb5c-4dca578eadd1" />
+
+---
 
  ## Notas de Implementação e Portabilidade
  **Segurança:** As chaves privadas (.json) de contas de serviço e IDs reais de infraestrutura foram 100% omitidos e protegidos por políticas de .gitignore e variáveis de ambiente.
